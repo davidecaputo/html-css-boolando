@@ -69,6 +69,57 @@ header nav img{
     margin: 10px;
 }
 
+.image{
+    position: relative;
+}
+
+.image img{
+    width: 100%;
+}
+
+.promo{
+    color: var(--primary-color);
+    position: absolute;
+    bottom: 40px;
+}
+
+.discount{
+    background-color: var(--red);
+    padding: 2px 5px;
+}
+
+.eco{
+    background-color: var(--green);
+    padding: 2px 5px;
+}
+
+.heart{
+    background-color: var(--primary-color);
+    padding: 0px 14px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 30px;
+}
+
+.text-small{
+    font-size: 12px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.price-orange{
+    color: var(--red);
+}
+
+.line-price{
+    text-decoration-line: line-through;
+    color: var(--black);
+}
+
 /* footer */
 
 footer{
