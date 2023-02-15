@@ -14,3 +14,51 @@
     --green: #008000;
     --red: #ff0000;
 }
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.flex-elements{
+    display: flex;
+}
+
+.space{
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 0px 10px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/* header */
+
+header{
+    background-color: var(--color-header);
+    padding: 10px 0px;
+}
+
+header nav img{
+    width: 150px;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--color-footer);
+}
