@@ -47,10 +47,6 @@ a{
     color: var(--primary-color);
 }
 
-.debug{
-    border: 1px solid black;
-}
-
 /* header */
 
 header{
@@ -67,6 +63,16 @@ header nav img{
 .card{
     width: calc(100% / 3 - 20px);
     margin: 10px;
+}
+
+.margin-card{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.margin-card-2{
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .image{
