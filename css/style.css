@@ -83,6 +83,17 @@ header nav img{
     width: 100%;
 }
 
+.img-hov{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.card:hover img.img-hov{
+    display: block;
+}
+
 .promo{
     color: var(--primary-color);
     position: absolute;
@@ -106,6 +117,10 @@ header nav img{
     top: 10px;
     right: 0;
     font-size: 30px;
+}
+
+.heart:hover{
+    color: var(--red);
 }
 
 .text-small{
